@@ -18,7 +18,7 @@ namespace Shunter300Mod
     }
 
     [HarmonyPatch(typeof(LocoControllerShunter), "Start")]
-    class LocoControllerShunter_Àwake_Patch
+    class LocoControllerShunter_Awake_Patch
     {
         static void Postfix(LocoControllerShunter __instance)
         {
